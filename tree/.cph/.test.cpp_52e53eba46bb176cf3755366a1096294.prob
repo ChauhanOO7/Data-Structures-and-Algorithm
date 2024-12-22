@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"d:\\C++ Practice\\DSA\\tree\\test.cpp","tests":[{"id":1721899895002,"input":"2\n10 1\n2 2\n","output":"100\n4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++ Practice\\DSA\\tree\\test.cpp","group":"local","local":true}
