@@ -14,7 +14,15 @@ toggle the ith bit.
 remove the last set bit(rightmost).
 count the number of set bits.
 check if number is power of 2.
+
+imp:
+| will be used to set 
+^ will be used to toggle 
+& will be used to check
+&~ will be used to clear
+
 */
+
 
 int main(){
 
@@ -71,7 +79,23 @@ int main(){
     // brute force you know, more optimised version below  use bitwise operation rathen than arithmetic operation.
 
     int copynumber = number;
-    
+    int count=0;
+
+    while(copynumber != 0){
+
+        count+=(copynumber & 1);
+        copynumber = copynumber>>1;
+    }
+
+    cout<<count<<'\n';
+
+    //check if number is 2 power or not.
+    // one way is check above count if count == 1 then it is power of 2 else not.
+    //or use more optimised way.
+
+    int powertwo = number & (number-1);
+    if(powertwo == 0)   cout<<"YES";
+    else cout<<"NO";
 
     return 0;
 }

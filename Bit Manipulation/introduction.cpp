@@ -25,7 +25,7 @@ conversion binary to number?
 
 how data stored in memory?
     -> for 32 bits(same for 64 bits):(indexing start from 0)
-        like a number 1 and binary = 1101.
+        like a number 5 and binary = 0101.
         in memory first 28 bits fill with zero and then remaining 4 bits take above binary bits.
     -> 31st bit is used for whether it is positive or negative number.
         0-> positive.

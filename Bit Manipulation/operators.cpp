@@ -17,7 +17,10 @@ using pci = pair<char,int>;
     XOR operator ^:
         odd 1s -> 1
         even 1s -> 0
-    
+
+        imp-> two same numbers xor always zero.
+        imp-> number xor with zero is equal to number.  
+
     right shift >>:
         shift bits to right.
         like    13>>2
